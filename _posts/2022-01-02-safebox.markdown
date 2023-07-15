@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 1
+date: 2022-01-02
+img: safebox.png
+alt: image-alt
+project-date: January 2, 2022
+client: Android
+category: Android Application
+description: گاوصندوق برنامه ای است برای نگهداری اطلاعات ، حساب ها و رمزهایی که نیاز به مکانی امن و دسترسی آسان و مداوم دارند.
+---

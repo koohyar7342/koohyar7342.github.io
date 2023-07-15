@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 2
+date: 2021-01-04
+img: daricheh.png
+alt: image-alt
+project-date: January 2021
+client: Android
+category: Android Development
+description: آیا می توانید الگوی موجود در هر معما را بفهمید؟
+---
