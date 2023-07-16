@@ -6,6 +6,7 @@ img: safebox.png
 alt: image-alt
 project-date: January 2, 2022
 client: Android
+address: https://cafebazaar.ir/app/com.moslemcompany.a16personalities
 category: Android Application
 description: گاوصندوق برنامه ای است برای نگهداری اطلاعات ، حساب ها و رمزهایی که نیاز به مکانی امن و دسترسی آسان و مداوم دارند.
 ---

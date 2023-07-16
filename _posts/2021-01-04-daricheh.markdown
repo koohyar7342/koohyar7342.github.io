@@ -6,6 +6,7 @@ img: daricheh.png
 alt: image-alt
 project-date: January 2021
 client: Android
+address: https://cafebazaar.ir/app/com.moslemcompany.a16personalities
 category: Android Development
 description: آیا می توانید الگوی موجود در هر معما را بفهمید؟
 ---
