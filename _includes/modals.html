@@ -32,10 +32,18 @@
               </li>
               {% endif %}
             </ul>
-            <ul class="list-group">
-            <li><a href={{ post.address }}>{{ post.address }}</a></li>
-            <li><a href={{ post.address }}>آدرس اپلیکیشن در بازار</a></li>
-
+            <ul class="list-inline item-details">
+            {% if post.address_myket %}
+            <li>
+            <a href={{ post.address_myket }}"><img src="img/badge_myket.png" /> </a>
+            </li>
+            {% endif %}
+            
+            {% if post.address_bazaar %}
+            <li>
+            <a href={{ post.address_bazaar }}><img src="img/badge_bazaar.png" /></a>
+            </li>
+             {% endif %}
             </ul>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
