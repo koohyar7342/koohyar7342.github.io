@@ -9,5 +9,5 @@ client: Android
 address_myket: https://myket.ir/app/com.moslem.persianCrypto?utm_source=search-ads-gift&utm_medium=cpc
 address_bazaar: https://cafebazaar.ir/app/com.moslem.persianCrypto
 category: Android Development
-description: آیا می توانید الگوی موجود در هر معما را بفهمید؟
+description: آیا می توانید الگوی موجود در هر معما را بفهمید؟                                                                                                                                بازی "دریچه" نوعی پازل است که از یک متن کوتاه رمزگذاری شده تشکیل شده است. کد استفاده شده برای رمزگذاری یک جایگزینی ساده حروف است و به اندازه کافی ساده است که بتوان آن ها با دست حل کرد. 
 ---
