@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+
+
+  <head>
+    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/{{ " style.css" }}">
+      <link rel="stylesheet" href="/{{ " css/font-awesome/css/all.min.css" }}">
+        <link rel="stylesheet" href="{{ " css/font-awesome/css/all.min.css" }}">
+  <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  </head>
+ <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+          
+            <h2>{{ page.title }}</h2>
+            <hr class="star-primary">
+            <img src="/img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}">
+            {% if page.description %}
+            <p>{{ page.description }}</p>
+            {% endif %}
+            <ul class="list-inline item-details">
+        
+              {% if page.project-date %}
+              <li>Date:
+                <strong>{{ page.project-date }}</strong>
+              </li>
+              {% endif %}
+              {% if page.category %}
+              <li>Service:
+                <strong>{{ page.category }}</strong>
+              </li>
+              {% endif %}
+            </ul>
+            <ul class="list-inline item-details">
+            {% if page.address_myket %}
+            <li>
+            <a href={{ page.address_myket }}"><img src="/img/badge_myket.png" /> </a>
+            </li>
+            {% endif %}
+            
+            {% if page.address_bazaar %}
+            <li>
+            <a href={{ page.address_bazaar }}><img src="/img/badge_bazaar.png" /></a>
+            </li>
+             {% endif %}
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Close</button>
+              
+          </div>
+
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>

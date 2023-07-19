@@ -6989,7 +6989,10 @@ readers do not read off random characters that represent icons */
 
 .fa-instagram:before {
   content: "\f16d"; }
-
+  
+.fa-bazaar:before {
+  content: "https://cdn.pishkhan.cafebazaar.ir/favicon.ico"; }
+  
 .fa-instalod:before {
   content: "\e081"; }
 
